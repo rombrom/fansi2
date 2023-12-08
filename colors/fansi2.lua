@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------
--- FANSI: Because ANSI can be fancy
+-- FANSI2: Because ANSI can be fancy
 -- ---------------------------------------------------------------------------
 -- Note: although this theme aims to be used with your terminal color palette,
 --       there are a few assumptions made to make the color scheme work as
