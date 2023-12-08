@@ -168,7 +168,7 @@ local definitions = {
 
   -- Statusline
   StatusLine = 'StatusLineBackground',
-  StatusLineNC = { fg = palette.grey },
+  StatusLineNC = 'StatusLineGrey',
   StatusLineTerm = 'StatusLine',
   StatusLineTermNC = 'StatusLineNC',
   -- Custom statusline extensions so you can link them up to User highlights
