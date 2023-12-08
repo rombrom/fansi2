@@ -1,6 +1,6 @@
 # FANSI2: Because ANSI can be fancy too
 
-![FANSI Screenshot](https://raw.githubusercontent.com/rombrom/fansi/master/screenshot.png)
+![FANSI Screenshot](https://raw.githubusercontent.com/rombrom/fansi2/master/screenshot.png)
 
 FANSI is a little Neovim color scheme which originally was intended to utilize the terminal's ANSI colors. This should still work when you `set notermguicolors` but there were some discrepancies due to Neovim/Treesitter I can't remember. The `set termguicolors` variation uses colors defined in my dotfiles repo: a theme called Bluebox, inspired by Gruvbox.
 
