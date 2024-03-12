@@ -300,6 +300,8 @@ local definitions = {
   -- Misc
   -- ['@comment'] = 'Comment',
   -- ['@comment.documentation'] = '',
+  ['@comment.note'] = 'Todo',
+  ['@comment.todo'] = 'Todo',
   ['@error'] = 'Error',
   ['@none'] = { fg = 'none', bg = 'none' },
   -- ['@preproc'] = 'PreProc',
@@ -337,7 +339,9 @@ local definitions = {
   -- Keywords
   -- ['@keyword'] = 'Keyword',
   -- ['@keyword.coroutine'] = 'Keyword',
-  ['@keyword.function'] = 'Statement',
+  ['@keyword.exception'] = 'Include',
+  ['@keyword.function'] = 'Keyword',
+  ['@keyword.import'] = 'Include',
   ['@keyword.operator'] = 'Operator',
   ['@keyword.return'] = 'Statement',
   -- ['@conditional'] = 'Conditional',
@@ -347,6 +351,9 @@ local definitions = {
   -- ['@label'] = 'Label',
   -- ['@include'] = 'Include',
   -- ['@exception'] = 'Exception',
+
+  -- Markup
+  ['@markup.heading'] = 'Title',
 
   -- Types
   -- ['@type'] = 'Type',
@@ -362,6 +369,8 @@ local definitions = {
   -- Identifiers
   -- ['@variable'] = 'Identifier',
   ['@variable.builtin'] = 'TextCyanLight',
+  ['@variable.member'] = 'TextCyan',
+  ['@variable.parameter'] = 'TextYellowLight',
   -- ['@constant'] = 'Constant',
   -- ['@constant.builtin'] = 'Special',
   -- ['@constant.macro'] = 'Define',
