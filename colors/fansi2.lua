@@ -302,6 +302,7 @@ local definitions = {
   -- ['@comment.documentation'] = '',
   ['@comment.note'] = 'Todo',
   ['@comment.todo'] = 'Todo',
+  ['@comment.warning'] = { fg = palette.yellow, attrs = {'bold'} },
   ['@error'] = 'Error',
   ['@none'] = { fg = 'none', bg = 'none' },
   -- ['@preproc'] = 'PreProc',
