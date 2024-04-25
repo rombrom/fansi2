@@ -355,6 +355,13 @@ local definitions = {
 
   -- Markup
   ['@markup.heading'] = 'Title',
+  ['@markup.italic'] = { attrs = {'italic'} },
+  ['@markup.link'] = 'Delimiter',
+  ['@markup.link.label'] = 'TextBlue',
+  ['@markup.link.url'] = 'TextYellowLight',
+  ['@markup.quote'] = 'TextCyanLight',
+  ['@markup.raw'] = 'SpecialKey',
+  ['@markup.strong'] = { attrs = {'bold'} },
 
   -- Types
   -- ['@type'] = 'Type',
