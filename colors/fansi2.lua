@@ -129,6 +129,9 @@ local definitions = {
   TextGrey = { fg = palette.grey },
   TextGreyLight = { fg = palette.greyLight },
 
+  -- Normal
+  Normal = { fg = palette.fg, bg = palette.bg },
+
   -- Editing area
   -- -------------------------------------------------------------------------
   -- Cursor
@@ -375,7 +378,7 @@ local definitions = {
   -- ['@structure'} = 'Structure',
 
   -- Identifiers
-  -- ['@variable'] = 'Identifier',
+  ['@variable'] = 'Normal',
   ['@variable.builtin'] = 'TextCyanLight',
   ['@variable.member'] = 'TextCyan',
   ['@variable.parameter'] = 'TextYellowLight',
