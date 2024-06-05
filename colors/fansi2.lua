@@ -363,7 +363,7 @@ local definitions = {
   ['@markup.link.label'] = 'TextBlue',
   ['@markup.link.url'] = 'TextYellowLight',
   ['@markup.quote'] = 'TextCyanLight',
-  ['@markup.raw'] = 'SpecialKey',
+  ['@markup.raw'] = 'Constant',
   ['@markup.strong'] = { attrs = {'bold'} },
 
   -- Types
