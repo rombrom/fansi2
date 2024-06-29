@@ -314,9 +314,10 @@ local definitions = {
   -- ['@operator'] = 'Operator',
 
   -- Punctuation
+  -- ['@punctuation'] = 'Delimiter',
   -- ['@punctuation.delimiter'] = 'Delimiter',
   -- ['@punctuation.bracket'] = 'Delimiter',
-  -- ['@punctuation.special'] = 'Delimiter',
+  ['@punctuation.special'] = 'Delimiter',
 
   -- Literals
   -- ['@string'] = 'String',
@@ -379,6 +380,7 @@ local definitions = {
 
   -- Identifiers
   ['@variable'] = 'Normal',
+
   ['@variable.builtin'] = 'TextCyanLight',
   ['@variable.member'] = 'TextCyan',
   ['@variable.parameter'] = 'TextYellowLight',
