@@ -436,6 +436,9 @@ local definitions = {
   -- ['@lsp.type.typeParameter'] =' ',
   -- ['@lsp.type.variable'] = 'Identifier',
 
+  -- LSP diffs
+  ['@diff.plus'] = 'diffAdd',
+  ['@diff.minus'] = 'diffChange',
 
   -- ALE
   -- -------------------------------------------------------------------------
