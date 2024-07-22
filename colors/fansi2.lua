@@ -362,7 +362,7 @@ local definitions = {
   ['@markup.heading'] = 'Title',
   ['@markup.italic'] = { attrs = {'italic'} },
   ['@markup.link'] = 'Delimiter',
-  ['@markup.link.label'] = 'TextBlue',
+  ['@markup.link.label'] = { fg = palette.blue, attrs = {'underline'} },
   ['@markup.link.url'] = 'TextYellowLight',
   ['@markup.quote'] = 'TextCyanLight',
   ['@markup.raw'] = 'Constant',
