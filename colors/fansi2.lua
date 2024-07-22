@@ -197,6 +197,7 @@ local definitions = {
   CursorColumn = 'ColorColumn',
   CursorLine = 'CursorColumn',
   CursorLineNr = 'TextGrey',
+  FloatBorder = 'TextBlack',
   Folded = 'TextBlackLight',
   FoldColumn = 'Folded',
   LineNr = 'TextBlackLight',
