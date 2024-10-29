@@ -130,7 +130,7 @@ local definitions = {
   TextGreyLight = { fg = palette.greyLight },
 
   -- Normal
-  Normal = { fg = palette.fg, bg = palette.bg },
+  Normal = { fg = palette.fg },
 
   -- Editing area
   -- -------------------------------------------------------------------------
