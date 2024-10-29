@@ -315,9 +315,9 @@ local definitions = {
   -- ['@operator'] = 'Operator',
 
   -- Punctuation
-  -- ['@punctuation'] = 'Delimiter',
-  -- ['@punctuation.delimiter'] = 'Delimiter',
-  -- ['@punctuation.bracket'] = 'Delimiter',
+  ['@punctuation'] = 'Delimiter',
+  ['@punctuation.delimiter'] = 'Delimiter',
+  ['@punctuation.bracket'] = 'Delimiter',
   ['@punctuation.special'] = 'Delimiter',
 
   -- Literals
