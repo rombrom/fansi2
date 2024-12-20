@@ -472,6 +472,11 @@ local definitions = {
   GitSignsDelete = 'TextRed',
   GitSignsUntracked = 'TextMagenta',
 
+  -- json
+  -- -------------------------------------------------------------------------
+  jsonKeyword = '@property',
+  jsonQuote = 'Delimiter',
+
   -- netrw
   -- -------------------------------------------------------------------------
   netrwExe = 'Function',
