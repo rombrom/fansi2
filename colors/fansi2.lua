@@ -495,5 +495,6 @@ for _, group in ipairs(vim.fn.getcompletion('@lsp', 'highlight')) do
 end
 
 for name, definition in pairs(definitions) do
-  vim.api.nvim_set_hl(0, name, get_group(definition))
+  local hl_options = get_group(definition)
+  vim.api.nvim_set_hl(0, name, hl_options)
 end
