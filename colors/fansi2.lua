@@ -452,8 +452,10 @@ local definitions = {
 
   -- fugitive
   -- -------------------------------------------------------------------------
+  fugitiveHash = 'TextYellow',
   fugitiveStagedHeading = 'TextGreen',
   fugitiveStagedModifier = 'TextGreen',
+  fugitiveSymbolicRef = { fg = palette.blueLight, attrs = { 'bold' } },
   fugitiveUnstagedHeading = 'TextYellow',
   fugitiveUnstagedModifier = 'TextYellow',
   fugitiveUntrackedHeading = 'TextMagenta',
