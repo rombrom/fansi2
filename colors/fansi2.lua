@@ -81,22 +81,22 @@ end
 local palette = {
   bg = { 'none', '#181b1f' },
   fg = { 'none', '#fff1d6' },
-  black = {0, '#31373d' },
-  blackLight = {8, '#757d85' },
-  red = {1, '#f55c45' },
-  redLight = {9, '#f58c31' },
-  green = {2, '#afb833' },
-  greenLight = {10, '#d6d66f' },
-  yellow = {3, '#ebb242' },
-  yellowLight = {11, '#ffd37a' },
-  blue = {4, '#5fb8b8' },
-  blueLight = {12, '#92d6d6' },
-  magenta = {5, '#cc7ab1' },
-  magentaLight = {13, '#eba0d2' },
-  cyan = {6, '#6eb89f' },
-  cyanLight = {14, '#92d6bf' },
-  grey = {7, '#9aaab8' },
-  greyLight = {15, '#d8e2eb' },
+  black = { 0, '#31373d' },
+  blackLight = { 8, '#757d85' },
+  red = { 1, '#f55c45' },
+  redLight = { 9, '#f58c31' },
+  green = { 2, '#afb833' },
+  greenLight = { 10, '#d6d66f' },
+  yellow = { 3, '#ebb242' },
+  yellowLight = { 11, '#ffd37a' },
+  blue = { 4, '#5fb8b8' },
+  blueLight = { 12, '#92d6d6' },
+  magenta = { 5, '#cc7ab1' },
+  magentaLight = { 13, '#eba0d2' },
+  cyan = { 6, '#6eb89f' },
+  cyanLight = { 14, '#92d6bf' },
+  grey = { 7, '#9aaab8' },
+  greyLight = { 15, '#d8e2eb' },
 }
 
 -- ---------------------------------------------------------------------------
@@ -135,7 +135,7 @@ local definitions = {
   -- Editing area
   -- -------------------------------------------------------------------------
   -- Cursor
-  Cursor = { fg = palette.fg, bg = palette.black, attrs = {'reverse'} },
+  Cursor = { fg = palette.fg, bg = palette.black, attrs = { 'reverse' } },
   iCursor = 'Cursor',
   lCursor = 'Cursor',
   vCursor = 'Cursor',
@@ -148,22 +148,22 @@ local definitions = {
   -- UI
   -- -------------------------------------------------------------------------
   -- Errors, warnings, info, etc.
-  Error = { fg = palette.red, attrs = {'bold', 'reverse'} },
-  Info = { fg = palette.blue, attrs = {'reverse'} },
-  Warning = { fg = palette.yellow, attrs = {'reverse'} },
-  ErrorMsg = { bg = palette.red },
-  ModeMsg = { fg = palette.blue, attrs = {'bold'} },
-  MoreMsg = { fg = palette.yellow, attrs = {'bold'} },
-  WarningMsg = { fg = palette.red, attrs = {'bold'} },
-  Question = { fg = palette.redLight, attrs = {'bold'} },
-  Title = { fg = palette.green, attrs = {'bold'} },
+  Error = { fg = palette.red, attrs = { 'bold', 'reverse' } },
+  Info = { fg = palette.blue, attrs = { 'reverse' } },
+  Warning = { fg = palette.yellow, attrs = { 'reverse' } },
+  ErrorMsg = { bg = palette.red, attrs = { 'bold' } },
+  ModeMsg = { fg = palette.blue, attrs = { 'bold' } },
+  MoreMsg = { fg = palette.yellow, attrs = { 'bold' } },
+  WarningMsg = { fg = palette.red, attrs = { 'bold' } },
+  Question = { fg = palette.redLight, attrs = { 'bold' } },
+  Title = { fg = palette.green, attrs = { 'bold' } },
 
   -- Menus
   Pmenu = { bg = palette.black },
-  PmenuSel = { fg = palette.blue, attrs = {'reverse'} },
+  PmenuSel = { fg = palette.blue, attrs = { 'reverse' } },
   PmenuSbar = { fg = palette.grey },
   PmenuThumb = { fg = palette.greenLight },
-  QuickFixLine = { fg = palette.blue, attrs = {'reverse'} },
+  QuickFixLine = { fg = palette.blue, attrs = { 'reverse' } },
   WildMenu = 'PmenuSel',
 
   -- Floating windows
@@ -177,17 +177,17 @@ local definitions = {
   -- Custom statusline extensions so you can link them up to User highlights
   StatusLineBackground = { bg = palette.black },
   StatusLineBlue = { fg = palette.blue, bg = palette.black },
-  StatusLineBlueLight = { fg = palette.blueLight, bg = palette.black, attrs = {'bold'} },
+  StatusLineBlueLight = { fg = palette.blueLight, bg = palette.black, attrs = { 'bold' } },
   StatusLineCyan = { fg = palette.cyan, bg = palette.black },
   StatusLineGreen = { fg = palette.green, bg = palette.black },
   StatusLineGrey = { fg = palette.grey, bg = palette.black },
-  StatusLineRed = { fg = palette.red, bg = palette.black, attrs = {'bold'} },
-  StatusLineYellow = { fg = palette.yellow, bg = palette.black, attrs = {'bold'} },
+  StatusLineRed = { fg = palette.red, bg = palette.black, attrs = { 'bold' } },
+  StatusLineYellow = { fg = palette.yellow, bg = palette.black, attrs = { 'bold' } },
 
   -- Tabline
   TabLine = { fg = palette.blueLight },
-  TabLineFill = { fg = palette.black, attrs = {'underline'} },
-  TabLineSel = { fg = palette.blueLight, attrs = {'bold', 'reverse' } },
+  TabLineFill = { fg = palette.black, attrs = { 'underline' } },
+  TabLineSel = { fg = palette.blueLight, attrs = { 'bold', 'reverse' } },
 
   -- Window dressing & UI
   ColorColumn = { bg = palette.black },
@@ -207,9 +207,9 @@ local definitions = {
   WinSeparator = 'TextBlack',
 
   -- Search
-  CurSearch = { fg = palette.yellowLight, attrs = {'reverse'} },
+  CurSearch = { fg = palette.yellowLight, attrs = { 'reverse' } },
   IncSearch = 'CurSearch',
-  Search = { fg = palette.yellow, attrs = {'reverse'} },
+  Search = { fg = palette.yellow, attrs = { 'reverse' } },
   Substitute = 'Search',
 
   -- Syntax
@@ -219,7 +219,7 @@ local definitions = {
   DiffChange = 'TextBlue',
   DiffDelete = 'TextRed',
   -- TODO: check this.
-  DiffText = { fg = palette.blueLight, attrs = {'reverse'} },
+  DiffText = { fg = palette.blueLight, attrs = { 'reverse' } },
   diffAdded = 'TextGreen',
   diffFile = 'TextYellowLight',
   diffIndexLine = 'TextYellowLight',
@@ -228,10 +228,10 @@ local definitions = {
   diffSubname = 'Normal',
 
   -- Spelling
-  SpellBad = { attrs = {'undercurl'}, sp = palette.red },
-  SpellCap = { attrs = {'undercurl'}, sp = palette.yellow },
-  SpellLocal = { attrs = {'undercurl'}, sp = palette.cyan },
-  SpellRare = { attrs = {'undercurl'}, sp = palette.magenta },
+  SpellBad = { attrs = { 'undercurl' }, sp = palette.red },
+  SpellCap = { attrs = { 'undercurl' }, sp = palette.yellow },
+  SpellLocal = { attrs = { 'undercurl' }, sp = palette.cyan },
+  SpellRare = { attrs = { 'undercurl' }, sp = palette.magenta },
 
   -- Code
   Boolean = 'TextMagenta',
@@ -264,26 +264,26 @@ local definitions = {
   Structure = 'TextCyan',
   Type = 'TextBlue',
   Typedef = 'TextBlue',
-  Underlined = { attrs = {'underline'} },
+  Underlined = { attrs = { 'underline' } },
 
   -- Comments
-  Comment = { fg = palette.blackLight, attrs = {'italic'} },
-  SpecialComment = { fg = palette.fg, attrs = {'bold', 'italic'} },
-  Todo = { fg = palette.fg, attrs = {'bold', 'italic' } },
+  Comment = { fg = palette.blackLight, attrs = { 'italic' } },
+  SpecialComment = { fg = palette.fg, attrs = { 'bold', 'italic' } },
+  Todo = { fg = palette.fg, attrs = { 'bold', 'italic' } },
 
   -- LSP
   DiagnosticError = 'TextRed',
-  DiagnosticSignError = { fg = palette.red, attrs = {'bold' } },
-  DiagnosticUnderlineError = { attrs = {'undercurl'}, sp = palette.red },
+  DiagnosticSignError = { fg = palette.red, attrs = { 'bold' } },
+  DiagnosticUnderlineError = { attrs = { 'undercurl' }, sp = palette.red },
   DiagnosticWarn = 'TextYellow',
-  DiagnosticSignWarn = { fg = palette.yellow, attrs = {'bold'} },
-  DiagnosticUnderlineWarn = { attrs = {'undercurl'}, sp = palette.yellow },
+  DiagnosticSignWarn = { fg = palette.yellow, attrs = { 'bold' } },
+  DiagnosticUnderlineWarn = { attrs = { 'undercurl' }, sp = palette.yellow },
   DiagnosticInfo = 'TextBlue',
-  DiagnosticSignInfo = { fg = palette.blue, attrs = {'bold'} },
-  DiagnosticUnderlineInfo = { attrs = {'undercurl'}, sp = palette.blue },
+  DiagnosticSignInfo = { fg = palette.blue, attrs = { 'bold' } },
+  DiagnosticUnderlineInfo = { attrs = { 'undercurl' }, sp = palette.blue },
   DiagnosticHint = 'TextCyan',
-  DiagnosticSignHint = { fg = palette.cyan, attrs = {'bold'} },
-  DiagnosticUnderlineHint = { attrs = {'undercurl'}, sp = palette.cyan },
+  DiagnosticSignHint = { fg = palette.cyan, attrs = { 'bold' } },
+  DiagnosticUnderlineHint = { attrs = { 'undercurl' }, sp = palette.cyan },
   DiagnosticFloatingError = 'TextRed',
   DiagnosticFloatingWarn = 'TextYellow',
   DiagnosticFloatingInfo = 'TextBlue',
@@ -292,10 +292,10 @@ local definitions = {
   DiagnosticVirtualTextWarn = 'TextYellow',
   DiagnosticVirtualTextInfo = 'TextBlue',
   DiagnosticVirtualTextHint = 'TextCyan',
-  -- wtf are these
-  LspReferenceRead = { fg = palette.yellow, attrs = {'bold'} },
-  LspReferenceText = { fg = palette.yellow, attrs = {'bold'} },
-  LspReferenceWrite = { fg = palette.redLight, attrs = {'bold'} },
+
+  LspReferenceRead = { bg = palette.black },
+  LspReferenceText = { bg = palette.black },
+  LspReferenceWrite = { bg = palette.black },
   LspCodeLens = 'TextGrey',
   LspSignatureActiveParameter = 'CurSearch',
 
@@ -306,7 +306,7 @@ local definitions = {
   -- ['@comment.documentation'] = '',
   ['@comment.note'] = 'Todo',
   ['@comment.todo'] = 'Todo',
-  ['@comment.warning'] = { fg = palette.yellow, attrs = {'bold'} },
+  ['@comment.warning'] = { fg = palette.yellow, attrs = { 'bold' } },
   ['@error'] = 'Error',
   ['@none'] = { fg = 'none', bg = 'none' },
   -- ['@preproc'] = 'PreProc',
@@ -360,13 +360,13 @@ local definitions = {
 
   -- Markup
   ['@markup.heading'] = 'Title',
-  ['@markup.italic'] = { attrs = {'italic'} },
+  ['@markup.italic'] = { attrs = { 'italic' } },
   ['@markup.link'] = 'Delimiter',
-  ['@markup.link.label'] = { fg = palette.blue, attrs = {'underline'} },
+  ['@markup.link.label'] = { fg = palette.blue, attrs = { 'underline' } },
   ['@markup.link.url'] = 'TextYellowLight',
   ['@markup.quote'] = 'TextCyanLight',
   ['@markup.raw'] = 'Constant',
-  ['@markup.strong'] = { attrs = {'bold'} },
+  ['@markup.strong'] = { attrs = { 'bold' } },
 
   -- Types
   -- ['@type'] = 'Type',
@@ -393,10 +393,10 @@ local definitions = {
 
   -- Text
   ['@text'] = 'TextFg',
-  ['@text.strong'] = { attrs = {'bold'} },
-  ['@text.emphasis'] = { attrs = {'italic'} },
+  ['@text.strong'] = { attrs = { 'bold' } },
+  ['@text.emphasis'] = { attrs = { 'italic' } },
   -- ['@text.underline'] = { attrs = {'underline'} },
-  ['@text.strike'] = { attrs = {'strikethrough'} },
+  ['@text.strike'] = { attrs = { 'strikethrough' } },
   -- ['@text.title'] = 'Title',
   -- ['@text.quote'] = '',
   -- ['@text.uri'] = 'Underlined',
