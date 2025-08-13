@@ -439,7 +439,7 @@ local definitions = {
 
   -- LSP diffs
   ['@diff.plus'] = 'diffAdd',
-  ['@diff.minus'] = 'diffChange',
+  ['@diff.minus'] = 'diffRemoved',
 
   -- ALE
   -- -------------------------------------------------------------------------
