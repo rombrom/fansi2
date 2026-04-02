@@ -139,7 +139,7 @@ local definitions = {
   iCursor = 'Cursor',
   lCursor = 'Cursor',
   vCursor = 'Cursor',
-  MatchParen = { attrs = { 'reverse' } },
+  MatchParen = { bg = palette.black, attrs = { 'underline' } },
 
   -- Selection
   Visual = { bg = palette.black, fg = palette.fg },
