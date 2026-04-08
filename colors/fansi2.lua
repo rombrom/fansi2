@@ -160,10 +160,12 @@ local definitions = {
   Title = { fg = palette.green, attrs = { 'bold' } },
 
   -- Menus
-  Pmenu = { bg = palette.black },
+  Pmenu = { bg = palette.bg },
+  PmenuBorder = { fg = palette.blackLight },
   PmenuSel = { fg = palette.blue, attrs = { 'reverse' } },
   PmenuSbar = { fg = palette.grey },
-  PmenuThumb = { fg = palette.greenLight },
+  PmenuThumb = { fg = palette.greyLight },
+
   QuickFixLine = { fg = palette.blue, attrs = { 'reverse' } },
   WildMenu = 'PmenuSel',
 
