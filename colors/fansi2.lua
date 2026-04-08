@@ -154,7 +154,8 @@ local definitions = {
   ErrorMsg = { bg = palette.red, attrs = { 'bold' } },
   ModeMsg = { fg = palette.blue, attrs = { 'bold' } },
   MoreMsg = { fg = palette.yellow, attrs = { 'bold' } },
-  WarningMsg = { fg = palette.red, attrs = { 'bold' } },
+  OkMsg = { fg = palette.green, attrs = { 'bold' } },
+  WarningMsg = { fg = palette.redLight, attrs = { 'bold' } },
   Question = { fg = palette.redLight, attrs = { 'bold' } },
   Title = { fg = palette.green, attrs = { 'bold' } },
 
