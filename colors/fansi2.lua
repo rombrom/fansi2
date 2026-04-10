@@ -160,7 +160,7 @@ local definitions = {
   Title = { fg = palette.green, attrs = { 'bold' } },
 
   -- Menus
-  Pmenu = { bg = palette.bg },
+  Pmenu = { bg = palette.black },
   PmenuBorder = { fg = palette.blackLight },
   PmenuSel = { fg = palette.blue, attrs = { 'reverse' } },
   PmenuSbar = { fg = palette.grey },
